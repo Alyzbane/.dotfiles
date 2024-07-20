@@ -1,0 +1,80 @@
+"CMD shit press enter prompt
+"set cmdheight=2
+"set shortmess=a
+syntax on
+
+"set background=dark
+
+"Backup directories
+set undofile 
+set undodir=~/vimfiles/.undo//
+
+set backup
+set backupdir=~/vimfiles/.backup//
+
+set swapfile
+set directory=~/vimfiles/.swp//
+
+
+"Sets how many lines of history VIM has to remember
+set history=500
+
+"Enable filetype plugins
+filetype plugin on
+filetype indent on
+
+"Configure backspace so it acts as it should act
+set backspace=eol,start,indent
+set whichwrap+=<,>,h,l
+
+"Ignore case when searching
+set ignorecase
+
+"When searching try to be smart about cases
+set smartcase
+
+"Highlight search results
+set hlsearch
+
+"Makes search act like search in modern browsers
+set incsearch
+
+"Don't redraw while executing macros (good performance config)
+set lazyredraw
+
+"Use spaces instead of tabs
+set expandtab
+
+"Be smart when using tabs ;)
+set smarttab
+
+"1 tab == 4 spaces
+set shiftwidth=4
+set tabstop=4
+
+set ai     
+set si 
+set wrap 
+
+set magic
+
+set hid
+
+"autoindentation in programs 
+set autoindent
+set cindent
+
+" Set font according to system
+"if has("mac") || has("macunix")
+"    set gfn=IBM\ Plex\ Mono:h14,Hack:h14,Source\ Code\ Pro:h15,Menlo:h15
+"elseif has("win16") || has("win32")
+"    set gfn=IBM\ Plex\ Mono:h16,Source\ Code\ Pro:h12,Bitstream\ Vera\Sans\ Mono:h11
+"elseif has("gui_gtk2")
+"    set gfn=IBM\ Plex\ Mono\ 14,:Hack\ 14,Source\ Code\ Pro\12,Bitstream\ Vera\ Sans\ Mono\ 11
+"elseif has("linux")
+"    set gfn=IBM\ Plex\ Mono\ 14,:Hack\ 14,Source\ Code\ Pro\12,Bitstream\ Vera\ Sans\ Mono\ 11
+"elseif has("unix")
+"    set gfn=Monospace\ 11
+"endif
+
+
